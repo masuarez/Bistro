@@ -1,0 +1,95 @@
+/*positions page - centered in browser*/
+#wrapper {
+	width: 960px; 
+	margin: 0 auto; 
+	position: relative;
+}
+
+/*style of links on page*/
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    text-decoration: none;
+    color: gray;
+}
+a:hover {
+    text-decoration: none;
+    color: #47A347;
+}
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+/*header section of page*/
+.header {
+	border-bottom: 6px solid;
+	margin-bottom: 10px;
+	height: 170px;
+	width: 100%;
+}
+
+/*navigation menu*/
+.header .nav {
+	margin-top: 15px;
+	width: 240px;
+	display: inline-block;
+}
+.header .nav LI {
+	list-style-type: none;
+	margin-left: -25px;
+	font-family: Sans-serif;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+/*restuarant title in header*/
+.header #title {
+	width: 720px;
+	font-family: 'Rock Salt', cursive;
+	font-size: 53px;
+	float: right;
+	margin-top: 45px;
+}
+
+/*images on page*/
+.main {
+	width: 960px;
+	height: 525px;
+	background-color: white;
+}
+.leftcolumn {
+	width: 225px;
+	margin-right: 5px;
+	float: left;
+}
+.centercolumn {
+	width: 500px;
+	float: left;
+	margin-right: 5px;
+}
+.rightcolumn {
+	width: 225px;
+	float: left;
+}
+.topimg {
+	margin-bottom: 0px;
+}
+
+.footer {
+	width: 100%;
+	height: 30px;
+	font-size: 16px;
+	font-family: 'Arial';
+	text-align: center;
+	clear: both;
+}
+
+/*faded images*/
+.fadeout {
+	-webkit-opacity: 0.25;
+	-moz-opacity: 0.25;
+	opacity: 0.25;
+}
